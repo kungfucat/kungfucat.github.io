@@ -1,10 +1,3 @@
-/*
-* lmpixels templates demo panel
-* Author: lmpixels
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 1.0
-*/
-
 var demoPanel = (function($) {
 "use strict";
 
