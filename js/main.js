@@ -1,10 +1,3 @@
-/*
-* Template Name: Unique - Responsive vCard Template
-* Author: lmpixels
-* Author URL: http://themeforest.net/user/lmpixels
-* Version: 1.0
-*/
-
 (function($) {
 "use strict";
     
@@ -44,14 +37,21 @@
 
         $('#contact-form').on('submit', function (e) {
             if (!e.isDefaultPrevented()) {
-                var url = "contact_form/contact_form.php";
+                var url = "https://irubikzjf1.execute-api.us-east-1.amazonaws.com/first-stage";
 
+                var form_name = $("#form_name").val(),
+                    form_email = $("#form_email").val(),
+                    form_message = $("#form_message").val();
                 $.ajax({
                     type: "POST",
                     url: url,
-                    data: $(this).serialize(),
-                    success: function (data)
-                    {
+                    data:  JSON.stringify({
+                        'name': form_name,
+                        'email': form_email,
+                        'message': form_message
+                    }),
+                    success: function (data) {
+                        // console.log(data);
                         var messageAlert = 'alert-' + data.type;
                         var messageText = data.message;
 
