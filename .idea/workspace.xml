@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1f201e01-5c51-4ab7-8ed8-f3d35e0f8162" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/images/portfolio/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/IPI.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/portfolio/IPI.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/emodulesApp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/full/Simplify_Full.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/gallerina.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/image_CNN.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/portfolio/simplify.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,15 +18,16 @@
     <session id="530967469">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="10" />
           <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.26" value="1" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -55,14 +47,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="5" />
-          <entry key="html" value="1010" />
+          <entry key="html" value="1024" />
           <entry key="js" value="367" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="5" />
-          <entry key="HTML" value="1010" />
+          <entry key="HTML" value="1024" />
           <entry key="JavaScript" value="367" />
         </counts>
       </usages-collector>
@@ -73,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="178">
-              <caret line="563" column="70" selection-start-line="563" selection-start-column="70" selection-end-line="563" selection-end-column="70" />
+            <state relative-caret-position="505">
+              <caret line="588" column="47" selection-start-line="588" selection-start-column="47" selection-end-line="588" selection-end-column="47" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#section#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#7;n#div#1;n#div#2;n#div#1;n#div#1;n#section#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -131,6 +123,7 @@
       <find>contact</find>
       <find>alert</find>
       <find>emodules</find>
+      <find>photo.p</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,7 +154,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,6 +165,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,16 +218,17 @@
       <workItem from="1567697920488" duration="53000" />
       <workItem from="1573062136207" duration="3113000" />
       <workItem from="1575700307427" duration="406000" />
-      <workItem from="1575721073246" duration="599000" />
+      <workItem from="1575721073246" duration="1339000" />
+      <workItem from="1576337254780" duration="43000" />
+      <workItem from="1576641745362" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10049000" />
+    <option name="totallyTimeSpent" value="10864000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18215613" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -329,8 +323,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="563" column="70" selection-start-line="563" selection-start-column="70" selection-end-line="563" selection-end-column="70" />
+        <state relative-caret-position="505">
+          <caret line="588" column="47" selection-start-line="588" selection-start-column="47" selection-end-line="588" selection-end-column="47" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#2;n#div#1;n#div#1;n#section#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#7;n#div#1;n#div#2;n#div#1;n#div#1;n#section#2;n#div#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
