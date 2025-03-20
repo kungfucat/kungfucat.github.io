@@ -30,44 +30,6 @@
     }
     // /Portfolio subpage filters
 
-    // Contact form validator
-    $(function () {
-
-        $('#contact-form').validator();
-
-        $('#contact-form').on('submit', function (e) {
-            if (!e.isDefaultPrevented()) {
-                var url = "https://irubikzjf1.execute-api.us-east-1.amazonaws.com/first-stage";
-
-                var form_name = $("#form_name").val(),
-                    form_email = $("#form_email").val(),
-                    form_message = $("#form_message").val();
-                $.ajax({
-                    type: "POST",
-                    url: url,
-                    data:  JSON.stringify({
-                        'name': form_name,
-                        'email': form_email,
-                        'message': form_message
-                    }),
-                    success: function (data) {
-                        // console.log(data);
-                        var messageAlert = 'alert-' + data.type;
-                        var messageText = data.message;
-
-                        var alertBox = '<div class="alert ' + messageAlert + ' alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>' + messageText + '</div>';
-                        if (messageAlert && messageText) {
-                            $('#contact-form').find('.messages').html(alertBox);
-                            $('#contact-form')[0].reset();
-                        }
-                    }
-                });
-                return false;
-            }
-        });
-    });
-    // /Contact form validator
-
     // Hide Mobile menu
     function mobileMenuHide() {
         var windowWidth = $(window).width();
