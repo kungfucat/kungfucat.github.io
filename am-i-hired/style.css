@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #FFE4E8;
+    background-color: #FFE4E8 !important;
     font-family: 'Nunito', sans-serif;
     min-height: 100vh;
     display: flex;
@@ -15,15 +15,13 @@ body {
     background-image:
         radial-gradient(circle at 15% 85%, #ffb3c1 0%, transparent 40%),
         radial-gradient(circle at 85% 15%, #ff8fa3 0%, transparent 40%),
-        radial-gradient(circle at 50% 50%, #fff0f3 0%, transparent 60%);
+        radial-gradient(circle at 50% 50%, #fff0f3 0%, transparent 60%) !important;
 }
 
 /* Floating hearts background */
 .hearts-bg {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
-    width: 100vw; /* Ensure it covers width */
-    height: 100vh; /* Ensure it covers height */
     pointer-events: none;
     z-index: 0;
     overflow: hidden;
