@@ -22,6 +22,8 @@ body {
 .hearts-bg {
     position: fixed;
     top: 0; left: 0; right: 0; bottom: 0;
+    width: 100vw; /* Ensure it covers width */
+    height: 100vh; /* Ensure it covers height */
     pointer-events: none;
     z-index: 0;
     overflow: hidden;
